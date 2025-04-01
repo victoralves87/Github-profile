@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perfil GitHub</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Perfil GitHub</h1>
+
+    <div class="search-box">
+      <input type="text" id="username" placeholder="Digite um usuário do GitHub">
+      <button id="search">
+        <i class="fas fa-search"><img src="pesquisa.png" alt=""></i>
+      </button>
+    </div>
+
+    <div id="profile" style="display: none;">
+      <div class="profile-card">
+        <img id="avatar" src="" alt="Foto de perfil">
+        <h2 id="name"></h2>
+        <p id="bio"></p>
+      </div>
+    </div>
+
+    <div id="error" style="display: none;"></div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
